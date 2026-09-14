@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+	float a,b,c,d,r¹,r²;
+	printf("\n Enter three values:");
+	scanf("%f%f%f",&a,&b,&c);
+	d=b*b-4*a*c;
+	if(d>0)
+	{
+		r¹=(-b+sqrt(d))/2.0*a;
+		r²=(-b-sqrt(d))/2.0*a;
+		printf("\n roots are r¹=%f,r²=%f",r¹,r²);
+		
+	}
+	else
+	{
+		printf("\n roots are imaginary");
+	}
+}
