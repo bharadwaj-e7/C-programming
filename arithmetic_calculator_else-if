@@ -1,0 +1,34 @@
+#include<stdio.h>
+void main()
+{
+	int a,b;
+	char op;
+	printf("\n Enter two numbers:");
+	scanf("%d%d",&a,&b);
+	printf("\n Enter operator:");
+	scanf(" %c",&op);
+	if(op=='+');
+	{
+		printf("\n Result=%d",a+b);
+	}
+	else if(op=='-');
+	{
+		printf("\n Result=%d",a-b);
+	}
+	else if(op=='%');
+	{
+		printf("\n Result=%d",a%b);
+	}
+	else if(op=='*');
+	{
+		printf("\n Result=%d",a*b);
+	}
+	else if(op=='/');
+	{
+		printf("\n Result=%d",a/b);
+	}
+	else
+	{
+		printf("\n %c is not an arithemtic opertaor",op);
+	}
+}
