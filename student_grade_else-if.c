@@ -3,7 +3,7 @@ void main()
 {
 	int physics,chemistry,biology,maths,computer,sum=0;
 	float percentage;
-	printf("\Enter five subjects marks");
+	printf("\n Enter five subjects marks:\n");
 	scanf("%d%d%d%d%d",&physics,&chemistry,&biology,&maths,&computer);
 	sum=physics+chemistry+biology+maths+computer;
 	percentage=sum/5.0;
