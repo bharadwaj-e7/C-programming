@@ -7,23 +7,23 @@ void main()
 	scanf("%d%d",&a,&b);
 	printf("\n Enter operator:");
 	scanf(" %c",&op);
-	if(op=='+');
+	if(op=='+')
 	{
 		printf("\n Result=%d",a+b);
 	}
-	else if(op=='-');
+	else if(op=='-')
 	{
 		printf("\n Result=%d",a-b);
 	}
-	else if(op=='%');
+	else if(op=='%')
 	{
 		printf("\n Result=%d",a%b);
 	}
-	else if(op=='*');
+	else if(op=='*')
 	{
 		printf("\n Result=%d",a*b);
 	}
-	else if(op=='/');
+	else if(op=='/')
 	{
 		printf("\n Result=%d",a/b);
 	}
